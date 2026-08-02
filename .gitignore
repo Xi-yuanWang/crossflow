@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Training outputs
+output_dir/
+log_dir*/
+work_dir*/
+lp_output/
+
+# Logs
+*.out
+*.err
+
+# Model weights & checkpoints
+*.pth
+*.pt
+*.npz
+*.safetensors
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Data & model directories
+dinov3/
+fluxv2vae/
+sd-vae-ft-mse/
+archive
+noise.pth
+
+# External repos
+paper/
+LightningDiT/
+pMF/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
